@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asztalfoglalás</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/Kanalazz.png">
+</head>
+<body>
+  <div class="container">
+  <header>
+    <nav class="navbar">
+    <div class="menu-toggle" id="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+   
+      
+      
+          <ul class="nav-links" id="nav-links">
+              <li><a href="index.html">Kanalazz</a></li>
+              <li><a href="index.html">Kezdőlap</a></li>
+              <li><a href="etlap.html">Étlap</a></li>
+              <li><a href="rolunk.html">Rólunk</a></li>
+              <li><a href="asztalfoglalas.html">Asztalfoglalás</a></li>
+            </ul>
+        </nav>
+  </header>
+    
+  <!-- Elérhetőség -->
+
+  <main class="contact-main">
+    <h1>Kapcsolat és Asztalfoglalás</h1>
+  
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h2>Kanalazz Étterem</h2>
+        <p>
+          1046 Budapest, Fóti út 82<br>
+          Asztalfoglalás: +36 1 234 5678<br>
+          E-mail: <a href="mailto:kanalazz@gmail.com">kanalazz@gmail.com</a>
+        </p>
+  
+        <h3>Nyitvatartás</h3>
+        <ul>
+          <li>Hétfő – Péntek: 11:00 – 21:30</li>
+          <li>Szombat: 11:00 – 21:30</li>
+          <li>Vasárnap: 11:00 – 21:00</li>
+        </ul>
+      </div>
+  
+      <!-- Térkép -->
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10742.740382655173!2d19.103338!3d47.585637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741da251fcbef4f%3A0x68b01b0c1e697b3e!2sF%C3%B3ti%20%C3%BAt%2082%2C%201046%20Budapest!5e0!3m2!1shu!2shu!4v1682871393945!5m2!1shu!2shu" 
+          allowfullscreen="" 
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  
+    <!-- Űrlap -->
+    <section class="form-section">
+      <h2>Asztalfoglalás</h2>
+      <form>
+        <label for="nev">Név:</label>
+        <input type="text" id="nev" name="nev" required>
+  
+        <label for="tel">Telefonszám:</label>
+        <input type="tel" id="tel" name="tel" required>
+  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="uzenet">Üzenet:</label>
+        <textarea id="uzenet" name="uzenet" rows="5" required></textarea>
+  
+        <button class="asztalgomb" type="submit">Foglalás</button>
+      </form>
+    </section>
+  </main>
+  
+   <footer>
+    <p>&copy; 2025 Kanalazz. Minden jog fenntartva.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</div>
+</body>
+</html>

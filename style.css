@@ -650,7 +650,7 @@ body {
 /* Media */
 
 
-@media (min-width: 1053px) and (max-width: 1367px) {
+@media (min-width: 1059px) and (max-width: 1375px) {
   .reviews-container .review:nth-of-type(n+4) {
     display: none;
   }
